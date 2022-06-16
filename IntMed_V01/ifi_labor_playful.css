@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+html
+{
+
+	background: radial-gradient(ellipse farthest-corner at center center, #015405 0%, #A5FC0F 100%);
+	background-size: 100%;
+	
+	/*height:100%;*/
+	
+	font-family: 'Orbitron', sans-serif;
+	font-family: 'Creepster', cursive;
+	font-family: 'Henny Penny', cursive;
+	color: green;
+	
+	
+}
+
+
+
+header
+{
+	
+	
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 60%;
+	margin-top: 0%;
+	margin-right:5%;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+footer
+{
+	padding: 0px;
+	/*margin-bottom:0px;*/
+	/*width: 100%;*/
+	height: 150px;
+	margin-left: 60%;
+	margin-right:5%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	text-align:center;
+}
+
+h1
+{
+	width: 100%;
+	height:50px;
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+}
+
+/* Classes */
+
+.portal
+{
+	
+	float: left;
+	height: 500px;
+	width: 500px;
+	
+	margin-left: 3%;
+	
+	background: url(r_m_portal.png) no-repeat center center;
+	/*Source: https://pngset.com/download-free-png-tuaar */
+	
+	background-size: 70%;
+	
+	animation: rotation 6s infinite linear;
+	
+	
+}
+
+
+
+.infobox
+{
+
+	background-color: rgb(0, 0, 0);
+	border: 1px dotted black;
+}
+
+
+.ifi_information
+{
+
+	width: 35%;
+	font-size: 19px;
+	margin-left: 60%;
+	background: #A5FC0F;
+	padding: 5px;
+	
+	border-top-right-radius: 5%;
+	border-top-left-radius: 5%;
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+
+	
+}
+
+.ifi_labor
+{
+	float:left;
+	margin-left: 150px;
+	margin-top: 7%;
+	filter: drop-shadow(100px 100px 100px green);
+	width:400px;
+	border: medium solid black;
+	border-top-right-radius: 30%;
+	border-bottom-right-radius: 30%;
+	overflow:hidden;
+}
+
+/* Key Frames*/
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+html
+{
+	background: url(gray_minimal_computer.jpg) no-repeat center center;
+	/*Source: https://www.freepik.com/free-photo/gray-minimal-computer-desktop-screen-digital-device-with-design-space_16260279.htm*/
+
+	
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	
+	height:100%;
+	
+	font-family: 'Source Code Pro', monospace;
+}
+
+header
+{
+	
+	
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 60%;
+	margin-top: 3%;
+	margin-right:5%;
+}
+
+footer
+{
+	padding: 0px;
+	/*margin-bottom:0px;*/
+	/*width: 100%;*/
+	height: 100px;
+	margin-left: 60%;
+	margin-right:5%;
+}
+
+h1
+{
+	width: 100%;
+	height:50px;
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+}
+
+/* Classes */
+
+
+.infobox
+{
+	color: white; 
+	background-color: rgb(0, 0, 0);
+	border: 1px dotted black;
+}
+
+
+.ifi_information
+{
+	color:white;
+	width: 35%;
+	font-size: 18px;
+	margin-left: 60%;
+	
+}
+
+.ifi_labor
+{
+	float:left;
+	margin-left: 22%;
+	margin-top:3%;
+	filter: drop-shadow(10px 10px 10px grey);
+	width:400px;
+}

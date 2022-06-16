@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/Mewxy/eclipse-workspace/V00/public/formulare.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Forms</title>
+</head>
+<body>
+
+<form action="mailto:lars.braubach@hs-bremen.de" method="post" enctype="text/plain">
+
+<label for="Name">Name: </label>
+<input type="text" name="Name" id="Name" size="30px" value="Lars"> <br>
+<label for="Email">Email: </label>
+<input type="text" name="Email" id="Email" size="30px" value="lars.braubach@hs-bremen.de">
+
+
+<p>Geschlecht:<br>
+<input type="radio" id="male" name="Geschlecht" value="Männlich"> 
+<label for="male">Männlich</label>
+<br> 
+<input type="radio" id="female" name="Geschlecht" value="Weiblich">
+<label for="female">Weiblich</label>
+<br> 
+<input type="radio" id="undefined" name="Geschlecht" value="Keine Angabe">
+<label for="undefined">Keine Angabe</label>
+<br> 
+</p>
+
+<p>Problemkategorie: <br> 
+<select name="Problemkategorie" size="zeilen" multiple="">
+<option value="Mac läuft nicht" selected="">Mac läuft nicht</option>
+<option value="Windows kaput">Windows kaput</option>
+<option value="Ubuntu im Eimer (Pro Level Mess Up)">Ubuntu im Eimer </option>
+</select>
+</p>
+
+<p>Beschreibung des Problems</p>
+<textarea name="Beschreibung des Problems" cols="40" rows="10" style="resize: none;">Schon wieder kaputt ...
+</textarea> <br>
+
+
+<input type="submit" value="Senden">
+<input type="reset" value="Reset">
+
+
+</form>
+
+
+
+
+
+</body></html>

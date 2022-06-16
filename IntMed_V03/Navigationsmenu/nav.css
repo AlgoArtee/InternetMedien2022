@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#mainMenu{
+		height: 100px;
+		background: linear-gradient(to bottom, black 0%, white 50%, grey 100%);
+	}
+	
+#mainMenu ul li{
+	float: left;
+	width: 150px;
+	line-height: 100px;
+	list-style-type: none;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+	color:black;
+}
+
+#mainMenu ul li a{
+	color:black;
+	text-decoration: none;
+}
+
+#mainMenu ul li a:hover{
+	background-color:#ff80ff;
+}

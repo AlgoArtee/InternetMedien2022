@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cats</title>
+
+<style type="text/css">
+	.cat_animation{
+		height: 200px;
+		width: 200px;
+		background-image: url(cat_3927194_1.png); 
+		background-position: left center;
+		background-repeat: no-repeat;
+		animation-name: run;
+		animation-duration: 7s;
+		animation-iteration-count:infinite;
+		animation-timing-function: linear;
+		}
+		
+		@keyframes run {
+			/*0% { opacity: 0; } */
+			100% { transform: translateX(900%); }
+		}
+		
+	.cat_animation1{
+		height: 200px;
+		width: 200px;
+		background-image: url(cat_3927194_1.png); 
+		background-position: left center;
+		background-repeat: no-repeat;
+		animation-name: forward_back;
+		animation-duration: 7s;
+		animation-iteration-count:infinite;
+		animation-timing-function: linear;
+		}
+		
+		@keyframes forward_back {
+			50% { transform: translateX(300%); }
+			100% { transform: translateX(0%); }
+		}
+		
+		
+	.cat_animation2{
+		margin-left:75%;
+		height: 200px;
+		width: 200px;
+		background-image: url(cat_3927194_1.png); 
+		background-position: center;
+		background-repeat: no-repeat;
+		animation-name: circle_around;
+		animation-duration: 7s;
+		animation-iteration-count:infinite;
+		animation-timing-function: linear;
+		}
+		
+		@keyframes circle_around {
+			 0% {
+			    transform: rotate(0deg) translateX(10em) translateY(10em) rotate(0deg);
+			  }
+			
+			  20% {
+			
+			    transform: rotate(72deg) translateX(10em) translateY(10em) rotate(-72deg);
+			  }
+			
+			  50% {
+			
+			    transform: rotate(180deg) translateX(10em) translateY(10em) rotate(-180deg);
+			  }
+			
+			  75% {
+			    transform: rotate(270deg) translateX(10em) translateY(10em) rotate(-270deg);
+			  }
+			
+			  100% {
+			    transform: rotate(360deg) translateX(10em) translateY(10em) rotate(-360deg);
+			  }
+		}
+		
+	
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<div class="cat_animation"></div>
+<div class="cat_animation1"></div>
+<div class="cat_animation2"></div>
+
+</body>
+</html>
